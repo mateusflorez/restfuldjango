@@ -1,0 +1,353 @@
+# Created by https://www.toptal.com/developers/gitignore/api/django
+# Edit at https://www.toptal.com/developers/gitignore?templates=django
+
+### Django ###
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media
+
+# If your build process includes running collectstatic, then you probably don't need or want to include staticfiles/
+# in your Git repository. Update and uncomment the following line accordingly.
+# <django-project-name>/staticfiles/
+
+### Django.Python Stack ###
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+
+# Django stuff:
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+#   For a library or package, you might want to ignore these files since the code is
+#   intended to run in multiple environments; otherwise, check them in:
+# .python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# poetry
+#   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
+#   This is especially recommended for binary packages to ensure reproducibility, and is more
+#   commonly ignored for libraries.
+#   https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
+#poetry.lock
+
+# pdm
+#   Similar to Pipfile.lock, it is generally recommended to include pdm.lock in version control.
+#pdm.lock
+#   pdm stores project-wide configurations in .pdm.toml, but it is recommended to not include it
+#   in version control.
+#   https://pdm.fming.dev/#use-with-ide
+.pdm.toml
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# PyCharm
+#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
+#  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
+#  and can be added to the global gitignore or merged into this file.  For a more nuclear
+#  option (not recommended) you can uncomment the following to ignore the entire idea folder.
+#.idea/
+
+# End of https://www.toptal.com/developers/gitignore/api/django
+static/admin/css/autocomplete.css
+static/admin/css/base.css
+static/admin/css/changelists.css
+static/admin/css/dark_mode.css
+static/admin/css/dashboard.css
+static/admin/css/fonts.css
+static/admin/css/forms.css
+static/admin/css/login.css
+static/admin/css/nav_sidebar.css
+static/admin/css/responsive_rtl.css
+static/admin/css/responsive.css
+static/admin/css/rtl.css
+static/admin/css/widgets.css
+static/admin/css/vendor/select2/LICENSE-SELECT2.md
+static/admin/css/vendor/select2/select2.css
+static/admin/css/vendor/select2/select2.min.css
+static/admin/fonts/LICENSE.txt
+static/admin/fonts/README.txt
+static/admin/fonts/Roboto-Bold-webfont.woff
+static/admin/fonts/Roboto-Light-webfont.woff
+static/admin/fonts/Roboto-Regular-webfont.woff
+static/admin/img/calendar-icons.svg
+static/admin/img/icon-addlink.svg
+static/admin/img/icon-alert.svg
+static/admin/img/icon-calendar.svg
+static/admin/img/icon-changelink.svg
+static/admin/img/icon-clock.svg
+static/admin/img/icon-deletelink.svg
+static/admin/img/icon-no.svg
+static/admin/img/icon-unknown-alt.svg
+static/admin/img/icon-unknown.svg
+static/admin/img/icon-viewlink.svg
+static/admin/img/icon-yes.svg
+static/admin/img/inline-delete.svg
+static/admin/img/LICENSE
+static/admin/img/README.txt
+static/admin/img/search.svg
+static/admin/img/selector-icons.svg
+static/admin/img/sorting-icons.svg
+static/admin/img/tooltag-add.svg
+static/admin/img/tooltag-arrowright.svg
+static/admin/img/gis/move_vertex_off.svg
+static/admin/img/gis/move_vertex_on.svg
+static/admin/js/actions.js
+static/admin/js/autocomplete.js
+static/admin/js/calendar.js
+static/admin/js/cancel.js
+static/admin/js/change_form.js
+static/admin/js/collapse.js
+static/admin/js/core.js
+static/admin/js/filters.js
+static/admin/js/inlines.js
+static/admin/js/jquery.init.js
+static/admin/js/nav_sidebar.js
+static/admin/js/popup_response.js
+static/admin/js/prepopulate_init.js
+static/admin/js/prepopulate.js
+static/admin/js/SelectBox.js
+static/admin/js/SelectFilter2.js
+static/admin/js/theme.js
+static/admin/js/urlify.js
+static/admin/js/admin/DateTimeShortcuts.js
+static/admin/js/admin/RelatedObjectLookups.js
+static/admin/js/vendor/jquery/jquery.js
+static/admin/js/vendor/jquery/jquery.min.js
+static/admin/js/vendor/jquery/LICENSE.txt
+static/admin/js/vendor/select2/LICENSE.md
+static/admin/js/vendor/select2/select2.full.js
+static/admin/js/vendor/select2/select2.full.min.js
+static/admin/js/vendor/select2/i18n/af.js
+static/admin/js/vendor/select2/i18n/ar.js
+static/admin/js/vendor/select2/i18n/az.js
+static/admin/js/vendor/select2/i18n/bg.js
+static/admin/js/vendor/select2/i18n/bn.js
+static/admin/js/vendor/select2/i18n/bs.js
+static/admin/js/vendor/select2/i18n/ca.js
+static/admin/js/vendor/select2/i18n/cs.js
+static/admin/js/vendor/select2/i18n/da.js
+static/admin/js/vendor/select2/i18n/de.js
+static/admin/js/vendor/select2/i18n/dsb.js
+static/admin/js/vendor/select2/i18n/el.js
+static/admin/js/vendor/select2/i18n/en.js
+static/admin/js/vendor/select2/i18n/es.js
+static/admin/js/vendor/select2/i18n/et.js
+static/admin/js/vendor/select2/i18n/eu.js
+static/admin/js/vendor/select2/i18n/fa.js
+static/admin/js/vendor/select2/i18n/fi.js
+static/admin/js/vendor/select2/i18n/fr.js
+static/admin/js/vendor/select2/i18n/gl.js
+static/admin/js/vendor/select2/i18n/he.js
+static/admin/js/vendor/select2/i18n/hi.js
+static/admin/js/vendor/select2/i18n/hr.js
+static/admin/js/vendor/select2/i18n/hsb.js
+static/admin/js/vendor/select2/i18n/hu.js
+static/admin/js/vendor/select2/i18n/hy.js
+static/admin/js/vendor/select2/i18n/id.js
+static/admin/js/vendor/select2/i18n/is.js
+static/admin/js/vendor/select2/i18n/it.js
+static/admin/js/vendor/select2/i18n/ja.js
+static/admin/js/vendor/select2/i18n/ka.js
+static/admin/js/vendor/select2/i18n/km.js
+static/admin/js/vendor/select2/i18n/ko.js
+static/admin/js/vendor/select2/i18n/lt.js
+static/admin/js/vendor/select2/i18n/lv.js
+static/admin/js/vendor/select2/i18n/mk.js
+static/admin/js/vendor/select2/i18n/ms.js
+static/admin/js/vendor/select2/i18n/nb.js
+static/admin/js/vendor/select2/i18n/ne.js
+static/admin/js/vendor/select2/i18n/nl.js
+static/admin/js/vendor/select2/i18n/pl.js
+static/admin/js/vendor/select2/i18n/ps.js
+static/admin/js/vendor/select2/i18n/pt-BR.js
+static/admin/js/vendor/select2/i18n/pt.js
+static/admin/js/vendor/select2/i18n/ro.js
+static/admin/js/vendor/select2/i18n/ru.js
+static/admin/js/vendor/select2/i18n/sk.js
+static/admin/js/vendor/select2/i18n/sl.js
+static/admin/js/vendor/select2/i18n/sq.js
+static/admin/js/vendor/select2/i18n/sr-Cyrl.js
+static/admin/js/vendor/select2/i18n/sr.js
+static/admin/js/vendor/select2/i18n/sv.js
+static/admin/js/vendor/select2/i18n/th.js
+static/admin/js/vendor/select2/i18n/tk.js
+static/admin/js/vendor/select2/i18n/tr.js
+static/admin/js/vendor/select2/i18n/uk.js
+static/admin/js/vendor/select2/i18n/vi.js
+static/admin/js/vendor/select2/i18n/zh-CN.js
+static/admin/js/vendor/select2/i18n/zh-TW.js
+static/admin/js/vendor/xregexp/LICENSE.txt
+static/admin/js/vendor/xregexp/xregexp.js
+static/admin/js/vendor/xregexp/xregexp.min.js
+static/assets/favicon/Favicon 48px 1.png
+static/assets/favicon/Favicon 48px 2.png
+static/assets/favicon/Favicon 64px 1.png
+static/assets/favicon/Favicon 64px 2.png
+static/assets/favicon/Favicon 96px 1.png
+static/assets/favicon/Favicon 96px 2.png
+static/assets/imagens/Banner(2).png
+static/assets/imagens/Modal.png
+static/assets/imagens/galeria/carina-nebula.png
+static/assets/imagens/populares/Foto 1.png
+static/assets/imagens/populares/Foto 2.png
+static/assets/imagens/populares/Foto 3.png
+static/assets/imagens/populares/Foto 4.png
+static/assets/imagens/populares/Foto 5.png
+static/assets/logo/Logo(2).png
+static/assets/ícones/1x/facebook.png
+static/assets/ícones/1x/favorite_outline.png
+static/assets/ícones/1x/Home - ativo.png
+static/assets/ícones/1x/Home - inativo.png
+static/assets/ícones/1x/instagram.png
+static/assets/ícones/1x/Mais curtidas - ativo.png
+static/assets/ícones/1x/Mais curtidas - inativo.png
+static/assets/ícones/1x/Mais vistas - ativo.png
+static/assets/ícones/1x/Mais vistas - inativo.png
+static/assets/ícones/1x/Novas - ativo.png
+static/assets/ícones/1x/Novas - inativo.png
+static/assets/ícones/1x/open_in_full.png
+static/assets/ícones/1x/search.png
+static/assets/ícones/1x/Surpreenda-me - ativo.png
+static/assets/ícones/1x/Surpreenda-me - inativo.png
+static/assets/ícones/1x/twitter.png
+static/assets/ícones/2x/facebook@2x.png
+static/assets/ícones/2x/favorite_outline.png
+static/assets/ícones/2x/Home - ativo.png
+static/assets/ícones/2x/Home - inativo.png
+static/assets/ícones/2x/instagram@2x.png
+static/assets/ícones/2x/Mais curtidas - ativo.png
+static/assets/ícones/2x/Mais curtidas - inativo.png
+static/assets/ícones/2x/Mais vistas - ativo.png
+static/assets/ícones/2x/Mais vistas - inativo.png
+static/assets/ícones/2x/Novas - ativo.png
+static/assets/ícones/2x/Novas - inativo.png
+static/assets/ícones/2x/open_in_full.png
+static/assets/ícones/2x/search.png
+static/assets/ícones/2x/Surpreenda-me - ativo.png
+static/assets/ícones/2x/Surpreenda-me - inativo.png
+static/assets/ícones/2x/twitter@2x.png
+static/styles/style.css
