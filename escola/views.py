@@ -7,21 +7,21 @@ class AlunosViewSet(viewsets.ModelViewSet):
     queryset = Aluno.objects.all()
     serializer_class = AlunoSerializer
     authentication_classes = [authentication.BasicAuthentication]
-    permission_classes = [permissions.IsAuthenticated]
+    permission_classes = [permissions.IsAuthenticated, permissions.DjangoModelPermissions]
 
 class CursosViewSet(viewsets.ModelViewSet):
     """Lista cursos"""
     queryset = Curso.objects.all()
     serializer_class = CursoSerializer
     authentication_classes = [authentication.BasicAuthentication]
-    permission_classes = [permissions.IsAuthenticated]
+    permission_classes = [permissions.IsAuthenticated, permissions.DjangoModelPermissions]
 
 class MatriculasViewSet(viewsets.ModelViewSet):
     """Lista matriculas"""
     queryset = Matricula.objects.all()
     serializer_class = MatriculaSerializer
     authentication_classes = [authentication.BasicAuthentication]
-    permission_classes = [permissions.IsAuthenticated]
+    permission_classes = [permissions.IsAuthenticated, permissions.DjangoModelPermissions]
 
 class ListaMatriculasAluno(generics.ListAPIView):
     """Lista matriculas de aluno"""
@@ -30,7 +30,7 @@ class ListaMatriculasAluno(generics.ListAPIView):
         return queryset
     serializer_class = ListaMatriculasAlunoSerializer
     authentication_classes = [authentication.BasicAuthentication]
-    permission_classes = [permissions.IsAuthenticated]
+    permission_classes = [permissions.IsAuthenticated, permissions.DjangoModelPermissions]
 
 class ListaAlunosMatriculadosCurso(generics.ListAPIView):
     """Lista alunos matriculados em um curso"""
@@ -39,4 +39,4 @@ class ListaAlunosMatriculadosCurso(generics.ListAPIView):
         return queryset
     serializer_class = ListaAlunosMatriculadosCursoSerializer
     authentication_classes = [authentication.BasicAuthentication]
-    permission_classes = [permissions.IsAuthenticated]
+    permission_classes = [permissions.IsAuthenticated, permissions.DjangoModelPermissions]
