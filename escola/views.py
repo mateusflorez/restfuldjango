@@ -16,6 +16,7 @@ class MatriculasViewSet(viewsets.ModelViewSet):
     """Lista matriculas"""
     queryset = Matricula.objects.all()
     serializer_class = MatriculaSerializer
+    http_method_names = ['get', 'post', 'put', 'path']
 
 class ListaMatriculasAluno(generics.ListAPIView):
     """Lista matriculas de aluno"""
